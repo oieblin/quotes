@@ -5,7 +5,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class MainService {
-    private static final String QUOTE_API_URL = "https://favqs.com/api/qotd";
+    private static final String QUOTE_API_URL = "https://favqs.com/api/";
 
     private final RestTemplate restTemplate;
 
