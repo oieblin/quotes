@@ -29,5 +29,6 @@ With this Quotes web app you can get quote of the day.
     "author": "Samuel Johnson",
     "author_permalink": "samuel-johnson",
     "body": "Your manuscript is both good and original but the part that is good is not original, and the part that is original is not good."
+  }
 }
 ````
