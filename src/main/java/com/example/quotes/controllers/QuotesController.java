@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @ControllerAdvice
 @RequestMapping("/api/v1")
-public class CommonController {
+public class QuotesController {
     private final QuotesService service;
 
-    public CommonController(QuotesService service) {
+    public QuotesController(QuotesService service) {
 
         this.service = service;
     }
@@ -20,5 +20,6 @@ public class CommonController {
         return service.getQuote(action);
     }
 }
+
 
 

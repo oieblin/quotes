@@ -10,10 +10,10 @@ import java.util.NoSuchElementException;
 
 @ControllerAdvice
 
-public class CommonException {
+public class QuotesException {
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<String> handleException(CommonException ex) {
+    public ResponseEntity<String> handleException(QuotesException ex) {
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal Server Error");
     }
 
