@@ -1,15 +1,15 @@
 package com.example.quotes.controllers;
 
-import com.example.quotes.service.MainService;
+import com.example.quotes.service.QuotesService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @ControllerAdvice
 @RequestMapping("/api/v1")
 public class CommonController {
-    private final MainService service;
+    private final QuotesService service;
 
-    public CommonController(MainService service) {
+    public CommonController(QuotesService service) {
 
         this.service = service;
     }

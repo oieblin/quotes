@@ -4,12 +4,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class MainService {
+public class QuotesService {
     private static final String QUOTE_API_URL = "https://favqs.com/api/";
 
     private final RestTemplate restTemplate;
 
-    public MainService(RestTemplate restTemplate) {
+    public QuotesService(RestTemplate restTemplate) {
 
         this.restTemplate = restTemplate;
     }
